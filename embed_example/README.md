@@ -1,6 +1,6 @@
-# Cell UMAP-Spatial Genes - Embed Final
+# Cell UMAP-Spatial Genes - Embed Final Font
 
-https://observablehq.com/d/af7cc2a5756dfc07@1350
+https://observablehq.com/d/767ecc5e7a7616d8@1615
 
 View this notebook in your browser by running a web server in this folder. For
 example:
@@ -14,14 +14,14 @@ import this module directly into your application. To npm install:
 
 ~~~sh
 npm install @observablehq/runtime@4
-npm install https://api.observablehq.com/d/af7cc2a5756dfc07@1350.tgz?v=3
+npm install https://api.observablehq.com/d/767ecc5e7a7616d8@1615.tgz?v=3
 ~~~
 
 Then, import your notebook and the runtime as:
 
 ~~~js
 import {Runtime, Inspector} from "@observablehq/runtime";
-import define from "af7cc2a5756dfc07";
+import define from "767ecc5e7a7616d8";
 ~~~
 
 To log the value of the cell named “foo”:
