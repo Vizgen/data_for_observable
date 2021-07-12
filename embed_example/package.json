@@ -1,11 +1,11 @@
 {
-  "name": "767ecc5e7a7616d8",
-  "main": "767ecc5e7a7616d8@1608.js",
-  "version": "1608.0.0",
-  "homepage": "https://observablehq.com/d/767ecc5e7a7616d8",
+  "name": "af7cc2a5756dfc07",
+  "main": "af7cc2a5756dfc07@1350.js",
+  "version": "1350.0.0",
+  "homepage": "https://observablehq.com/d/af7cc2a5756dfc07",
   "author": {
-    "name": "Nicolas Fernandez",
-    "url": "https://observablehq.com/@cornhundred"
+    "name": "vizgen",
+    "url": "https://observablehq.com/@vizgen"
   },
   "type": "module",
   "peerDependencies": {
