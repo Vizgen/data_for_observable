@@ -3,7 +3,7 @@ import define1 from "./e93997d5089d7165@2303.js";
 export default function define(runtime, observer) {
   const main = runtime.module();
   main.variable(observer()).define(["md"], function(md){return(
-md`# Cell UMAP-Spatial Genes - Embed Final Font`
+md`# Cell UMAP-Spatial Genes - Gene Max D3`
 )});
   main.variable(observer("dashboard")).define("dashboard", ["html","viewof map_type","viewof select_meta_dropdown","container"], function(html,$0,$1,container){return(
 html`
@@ -326,8 +326,8 @@ Object.keys(data[0])
   main.variable(observer("meta_data_cols")).define("meta_data_cols", ["meta_data_cols_ini","gene_names"], function(meta_data_cols_ini,gene_names){return(
 meta_data_cols_ini.concat(gene_names)
 )});
-  main.variable(observer("gene_max")).define("gene_max", ["gene_data","select_meta"], function(gene_data,select_meta){return(
-Math.max.apply(Math, gene_data.map(function(x) { return parseInt(x[select_meta]) })) * 0.85
+  main.variable(observer("gene_max")).define("gene_max", ["d3","gene_data","select_meta"], function(d3,gene_data,select_meta){return(
+d3.max(gene_data, d => d[select_meta]) * 0.85
 )});
   main.variable(observer("cat_colors")).define("cat_colors", ["inputs"], function(inputs){return(
 inputs['cat_colors']
